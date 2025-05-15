@@ -43,14 +43,11 @@
     gap: 1rem;
 }
 
-.search {
-   color: #f9b000;
-}
-
 .dropdown-menu {
     display: none;
     background-color: #f9b000;
     position: absolute;
+    border-radius: 5px;
 }
 
 .dropdown-menu a {
