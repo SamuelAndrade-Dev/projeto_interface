@@ -56,6 +56,13 @@
     padding: 8px;
 }
 
+.dropdown-menu a:hover {
+    display: block;
+    padding: 8px;
+    color:rgb(255, 214, 119);
+    transition: 1s;
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }

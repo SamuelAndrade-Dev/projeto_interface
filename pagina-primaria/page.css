@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-shadow: border-box;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
@@ -25,7 +25,7 @@
 .logo-img {
         margin-top: 15px;
         height: 60.38px;
-        whidth: 225px;
+        width: 225px;
 }
 
 .list-social-redes {
@@ -56,6 +56,57 @@
     padding: 8px;
 }
 
+.dropdown-menu a:hover {
+    display: block;
+    padding: 8px;
+    color:rgb(255, 214, 119);
+    transition: 1s;
+}
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.container-slider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+}
+
+.container-imagens {
+    display: flex;
+    transition: transform 0.5s;
+    width: 300%;
+}
+
+.slider {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.prev-button, .next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
 }
