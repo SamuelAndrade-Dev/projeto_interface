@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-shadow: border-box;
     font-family: "Poppins", sans-serif;
 }
 
@@ -25,7 +25,7 @@
 .logo-img {
         margin-top: 15px;
         height: 60.38px;
-        width: 225px;
+        whidth: 225px;
 }
 
 .list-social-redes {
@@ -62,6 +62,7 @@
     color:rgb(255, 214, 119);
     transition: 1s;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -91,11 +92,12 @@
 }
 
 .prev-button, .next-button {
+    font-size: 3rem;
     width: 30px;
     height: 30px;
     border: none;
     background-color: transparent;
-    color: black;
+    color: gray;
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -104,9 +106,167 @@
 }
 
 .prev-button {
+    margin-left: 3rem;
     left: 10px;
 }
 
 .next-button {
+    margin-right: 3rem;
     right: 10px;
+}
+
+.section-primary-carrossel {
+    background-color: #6cbe99;
+}
+
+.section-primary-carrossel span, a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.container-carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+
+}
+
+.container-carrossel span {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.carrossel {
+    width: 141.68px;
+    height: 190px;
+}
+
+.preve-button, .nexte-button {
+    background-color: transparent;
+    border: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 100%;
+    left: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+}
+
+.container-second {
+    display: flex;
+    justify-content: center; 
+    height: 100vh;
+    width: 100%;
+    gap: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.expo-one a{
+    display: flex;
+    flex-direction: column;
+    width: 403px;
+}
+.expo-one a:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+    display: flex;
+    flex-direction: column;
+    width: 403px;
+}
+
+.expo-one span {
+    background-color: orange;
+    height: 22px;
+    width: 90px;
+}
+
+.expo-one img {
+    width: 400px;
+    height: 250px;
+}
+
+.expo-one h3 {
+    color: orange;
+}
+
+.expo-one p {
+    color: black;
+}
+
+.expo-two a {
+    display: flex;
+    flex-direction: column;
+    width: 403px;
+}
+
+.expo-two a:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+    display: flex;
+    flex-direction: column;
+    width: 403px;
+}
+
+
+.expo-two span {
+    background-color: orange;
+    height: 22px;
+    width: 90px;
+}
+
+.expo-two img {
+    width: 400px;
+    height: 250px;
+}
+
+.expo-two h3 {
+    color: orange;
+}
+
+.expo-two p {
+    color: black;
+}
+
+.expo-tree a {
+    display: flex;
+    flex-direction: column;
+    width: 403px;
+}
+
+.expo-tree a:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+    display: flex;
+    flex-direction: column;
+    width: 403px;
+}
+
+
+.expo-tree span {
+    background-color: orange;
+    height: 22px;
+    width: 90px;
+}
+
+.expo-tree img {
+    width: 400px;
+    height: 250px;
+}
+
+.expo-tree h3 {
+    color: orange;
+}
+
+.expo-tree p {
+    color: black;
 }
