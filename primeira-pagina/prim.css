@@ -98,10 +98,11 @@
 }
 
 .slider {
-    width: 100vw;
+    width: 100%;
     height: auto;
     object-fit: cover;
     flex-shrink: 0;
+
 }
 
 .prev-button,
@@ -331,51 +332,40 @@ a {
 }
 
 .container-bottom {
-    position: relative;
+    width: 100%;
 }
 
-.container-bottom a,
-li {
-    color: #95c11f;
-    list-style: none;
+.container-footer-one {
+    position: relative;
+    text-align: center;
 }
 
 .container-sobreposto {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 20%;
+    left: 25%;
     color: white;
+}
+
+.container-form-footer {
+    gap: 1rem;
+}
+
+.container-form-footer form {
+    margin-top: 10px;
+}
+
+.container-form-footer input {
     padding: 10px;
     border-radius: 5px;
+    border: none;
 }
 
-.container-footer-two {
-    width: 100%;
-    display: flex;
-}
-
-.logo-footer {
-    border-top: 1px solid #95c11f;
-    width: 118px;
-    height: 80px;
-    padding-top: 10px;
-}
-
-.list-footer {
-    display: flex;
-    width: 300px;
-}
-
-.list-footer li {
-    list-style: none;
-
-}
-
-.redes-sociais {
-    border-top: 1px solid #95c11f;
-}
-
-.list-redes-sociais {
-    display: flex;
-
+.container-form-footer button {
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
