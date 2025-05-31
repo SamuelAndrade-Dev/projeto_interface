@@ -137,11 +137,11 @@
 .section-primary-carrossel span,
 a {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     text-decoration: none;
     color: aliceblue;
     gap: 1rem;
-    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 .container-carrossel {
@@ -149,19 +149,12 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 160px;
+    height: 140px;
 
-}
-
-.container-carrossel span {
-    display: flex;
-    justify-content: end;
-    align-items: end;
 }
 
 .carrossel {
     width: 141.68px;
-    height: 190px;
 }
 
 .preve-button,
@@ -293,8 +286,8 @@ a {
 .container-colaboradores {
     max-width: 50%;
     margin: 0 auto;
-    padding-top: 9rem;
-
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .container-colaboradores h3 {
@@ -304,7 +297,7 @@ a {
 
 .list-colaboradores {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -312,15 +305,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
     padding: 20px 0;
 }
 
 
 .list-colaboradores a:hover {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     opacity: 0.5;
     transition: 0.9s;
@@ -333,17 +324,21 @@ a {
 
 .container-bottom {
     width: 100%;
+    color: #95c11f;
 }
 
 .container-footer-one {
     position: relative;
-    text-align: center;
+    height: 220px;
+    display: flex;
+    justify-content: center;
 }
 
 .container-sobreposto {
     position: absolute;
     top: 20%;
-    left: 25%;
+    left: 28%;
+    text-align: left;
     color: white;
 }
 
@@ -368,4 +363,54 @@ a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.container-footer-two {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    width: 75%;
+    padding-left: 19rem;
+    padding-top: 1rem;
+}
+
+.container-footer-two a {
+    color: #95c11f;
+}
+
+.container-footer-two li {
+    list-style: none;
+}
+
+.logo-footer img {
+    max-width: 100px;
+    margin-bottom: 20px;
+    border-top: 1px solid #95c11f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    color: #7ba41d;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.midias-sociais-footer h3 {
+    border-top: 1px solid #95c11f;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    gap: 19rem;
+    color: #333;
+}
+
+.list-midia {
+    display: flex;
 }
