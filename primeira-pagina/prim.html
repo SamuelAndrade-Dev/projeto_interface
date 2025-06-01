@@ -97,7 +97,7 @@
                             <a href="#">Atuação Jurídica</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#">Contato</a>
+                            <a href="/pagina-contato/contato.html">Contato</a>
                         </li>
                         <div>
 
@@ -122,9 +122,10 @@
             <button id="next-button" class="next-button"><i class="bi bi-caret-right"></i></button>
         </section>
         <section class="section-primary-carrossel">
-            <div class="container-carrossel">
-                <button id="preve-button" class="preve-button"><i class="bi bi-caret-left"></i></button>
-                <img src="carrossel/AssociacaoRare_mono.png" alt="imagem1" class="carrossel">
+            <div class="container-carrossel" id="container-carrossel">
+                <button class="preve-button" onclick="scrollCarousel(-1)">
+                    <i class="bi bi-caret-left"></i>
+                </button>
                 <img src="carrossel/ClimateSmart-branco.png" alt="imagem2" class="carrossel">
                 <img src="carrossel/conectas_monocromatica-Branco1.png" alt="imagem3" class="carrossel">
                 <img src="carrossel/CTI_mono.png" alt="imagem3" class="carrossel">
@@ -132,8 +133,9 @@
                 <img src="carrossel/FundacaoAvina_mono.png" alt="imagem6" class="carrossel">
                 <img src="carrossel/greenpeace_mono.png" alt="imagem7" class="carrossel">
                 <img src="carrossel/hospitais-saudaveis_mono.png" alt="imagem8" class="carrossel">
-                <img src="carrossel/IniciativaVerde_mono.png" alt="imagem9" class="carrossel">
-                <button id="nexte-button" class="nexte-button"><i class="bi bi-caret-right"></i></button>
+                <button class="nexte-button" onclick="scrollCarousel(1)">
+                    <i class="bi bi-caret-right"></i>
+                </button>
             </div>
             <span><a href="#">Conheça nossos membros <i class="bi bi-arrow-right"></i></a></span>
         </section>
