@@ -5,6 +5,12 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .container-top {
     display: flex;
     height: 90px;
@@ -14,6 +20,8 @@
     position: fixed;
     z-index: 1000;
     width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .container-top span,
@@ -112,19 +120,52 @@ a {
     z-index: 10;
     padding: 1rem;
     border-radius: 8px;
+    background-color: white;
 }
 
 .text-sobreposto h3 {
-    color: white;
+    color: #95c11f;
     margin: 0;
     font-size: 2.82rem;
 }
 
-.container-atuacoes {
+.container-search {
     display: flex;
     justify-content: center;
     background-color: #ececed;
     height: 50px;
+}
+
+.form-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.form-search input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 2rem;
+    border-radius: 4px;
+    border-color: rgb(255, 247, 247);
+}
+
+.btn-search {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1rem;
+    height: 2.2rem;
+    background-color: #f18700;
+    border: none;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    cursor: pointer;
 }
 
 .container-atuacoes ul,
@@ -179,12 +220,18 @@ i {
 .container-bottom {
     width: 100%;
     color: #95c11f;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .container-footer-one {
     position: relative;
     height: 220px;
     display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
     justify-content: center;
 }
 
@@ -196,26 +243,18 @@ i {
     color: white;
 }
 
-.container-form-footer {
-    gap: 1rem;
-}
-
-.container-form-footer form {
-    margin-top: 10px;
-}
-
 .container-form-footer input {
-    padding: 10px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 2px;
     border: none;
 }
 
 .container-form-footer button {
-    padding: 10px 20px;
+    padding: 5px 10px;
     background: orange;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
 }
 
@@ -223,9 +262,10 @@ i {
     display: flex;
     gap: 10rem;
     justify-content: center;
-    width: 75%;
-    padding-left: 19rem;
     padding-top: 1rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .container-footer-two a {

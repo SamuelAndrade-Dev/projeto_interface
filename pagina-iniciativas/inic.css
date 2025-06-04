@@ -5,6 +5,12 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .container-top {
     display: flex;
     height: 90px;
@@ -14,7 +20,10 @@
     position: fixed;
     z-index: 1000;
     width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
+
 
 .container-top span,
 a {
@@ -142,6 +151,7 @@ i {
     margin: 0 auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    display: block;
 }
 
 .container-colaboradores h3 {
@@ -149,27 +159,37 @@ i {
     font-size: 2.25rem;
 }
 
-.list-colaboradores {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.list-colaboradores a {
+.container-list-colaboradores {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    gap: 50%;
 }
 
-
-.list-colaboradores a:hover {
+.list-colaboradores {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    opacity: 0.5;
-    transition: 0.9s;
+    width: 100%;
+}
 
+.list-colaboradores img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 4rem;
+}
+
+.list-two-colaboradores img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 4rem;
 }
 
 .list-colaboradores:last-child {
@@ -179,12 +199,18 @@ i {
 .container-bottom {
     width: 100%;
     color: #95c11f;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .container-footer-one {
     position: relative;
     height: 220px;
     display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
     justify-content: center;
 }
 
@@ -196,26 +222,18 @@ i {
     color: white;
 }
 
-.container-form-footer {
-    gap: 1rem;
-}
-
-.container-form-footer form {
-    margin-top: 10px;
-}
-
 .container-form-footer input {
-    padding: 10px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 2px;
     border: none;
 }
 
 .container-form-footer button {
-    padding: 10px 20px;
+    padding: 5px 10px;
     background: orange;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
 }
 
@@ -223,9 +241,10 @@ i {
     display: flex;
     gap: 10rem;
     justify-content: center;
-    width: 75%;
-    padding-left: 19rem;
     padding-top: 1rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .container-footer-two a {
